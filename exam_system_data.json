@@ -1,0 +1,66 @@
+{
+    "students": [
+        {
+            "user_id": "U001",
+            "name": "Joshua Bangura",
+            "username": "joshua",
+            "student_id": "ST001"
+        }
+    ],
+    "teachers": [
+        {
+            "user_id": "U002",
+            "name": "Mr. Kamara",
+            "username": "teacher",
+            "teacher_id": "TE001"
+        }
+    ],
+    "exams": [
+        {
+            "exam_id": "EX001",
+            "title": "Introduction to Computer Science",
+            "subject": "Computer Science",
+            "duration": 30,
+            "questions": [
+                {
+                    "question_id": 1,
+                    "text": "What does CPU stand for?",
+                    "options": {
+                        "A": "Central Processing Unit",
+                        "B": "Computer Personal Unit",
+                        "C": "Central Program Utility",
+                        "D": "Computer Processing User"
+                    },
+                    "correct_answer": "A",
+                    "marks": 10
+                },
+                {
+                    "question_id": 2,
+                    "text": "Which language is commonly used for OOP?",
+                    "options": {
+                        "A": "HTML",
+                        "B": "Python",
+                        "C": "CSS",
+                        "D": "SQL"
+                    },
+                    "correct_answer": "B",
+                    "marks": 10
+                },
+                {
+                    "question_id": 3,
+                    "text": "Which of these is a database?",
+                    "options": {
+                        "A": "MySQL",
+                        "B": "Python",
+                        "C": "Windows",
+                        "D": "Chrome"
+                    },
+                    "correct_answer": "A",
+                    "marks": 10
+                }
+            ],
+            "completed_students": []
+        }
+    ],
+    "results": []
+}
